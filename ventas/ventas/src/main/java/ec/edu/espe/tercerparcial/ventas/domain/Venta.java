@@ -18,7 +18,7 @@ public class Venta {
     private String id;
 
     @Field("codigo_unico")
-    private String codigoProducto;
+    private String codigoUnico;
 
     @Field("fecha_venta")
     private Date fechaVenta;
@@ -62,7 +62,7 @@ public class Venta {
 
     @Override
     public String toString() {
-        return "Venta [id=" + id + ", codigoProducto=" + codigoProducto + ", fechaVenta=" + fechaVenta + ", nombre="
+        return "Venta [id=" + id + ", codigoProducto=" + codigoUnico + ", fechaVenta=" + fechaVenta + ", nombre="
                 + nombre + ", precioUnitario=" + precioUnitario + ", cantidad=" + cantidad + ", valorTotal="
                 + valorTotal + "]";
     }
